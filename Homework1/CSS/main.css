@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 
-    font-size: 16px;
+    font-size: 30px;
 }
 
 div#content, #personal-information, #experience, #works-collection {
@@ -20,6 +20,7 @@ div#content, #personal-information, #experience, #works-collection {
     border-width: 10px 10px 10px 10px;
     border-color: white;
     padding: 10px 10px 10px 10px;
+    font-weight: bold;
 }
 
 img {
@@ -40,5 +41,11 @@ h2 {
 
 ul li {
     font-size: 40px;
-    color: rgb(40, 39, 39);
+    color: rgb(255, 255, 255);
+}
+
+div#footer {
+    text-align: center;
+    font-family: 'Bellefair', serif;
+    text-shadow: 1px 1px;
 }
