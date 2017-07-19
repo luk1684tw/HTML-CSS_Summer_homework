@@ -2,16 +2,6 @@ html {
     height: 100%;
 }
 
-div#content {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: rgba(222,222,222,0.5);
-    border-style: solid;
-    border-width: 10px 10px 10px 10px;
-    border-color: white;
-    padding: 10px 10px 10px 10px;
-}
-
 body {
     background-image: url('../image/bg.jpg') ;
     background-size: cover;
@@ -19,4 +9,36 @@ body {
     background-attachment: fixed;
 
     font-size: 16px;
-};
+}
+
+div#content, #personal-information, #experience, #works-collection {
+    max-width: 1000px;
+    min-width: 500px;
+    margin: 0 auto;
+    background-color: rgba(51, 16, 91, 0.36);
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Bellefair', serif;
+}
+
+h2 {
+    color: rgba(255, 252, 0, 0.5);
+    font-size: 52px;
+}
+
+ul li {
+    font-size: 40px;
+    color: rgb(40, 39, 39);
+}
