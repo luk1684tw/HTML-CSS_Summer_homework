@@ -1,0 +1,60 @@
+html ,body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url('../images/bg3.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+
+    font-size: 1rem;
+}
+
+h1,div.footer {
+    text-align: center;
+    text-shadow: 1px 1px rgb(57, 58, 79);
+    letter-spacing: 4px;
+    font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+    font-size: 4rem;
+    color: rgba(135, 156, 11, 0.21);
+    font-weight: lighter;
+}
+
+div.content {
+    max-width: 700px;
+    min-width: 400px;
+    background-color: rgba(126, 145, 108, 0.6);
+    margin: 0 auto;
+    padding: 0px 20px;
+    border-width: thick;
+    border-style: solid;
+    border-color: white;
+    border-radius: 3px;
+
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+}
+
+div.date {
+    color: rgb(91, 43, 161);
+}
+
+div.quote {
+    border-left: 5px;
+    border-left-style: solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-left-color: rgb(0, 148, 255);
+    padding-left: 10px;
+
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+div.article {
+    padding-top: 10px;
+}
