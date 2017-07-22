@@ -4,9 +4,9 @@ html ,body {
 }
 
 body {
-    background-image: url('../images/bg.jpg');
+    background-image: url('../images/bg1.jpg');
     background-attachment: fixed;
-    background-size: cover;
+    background-size:cover;
 
     font-size: 1rem;
 }
