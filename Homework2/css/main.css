@@ -44,16 +44,19 @@ div.date {
 }
 
 div.quote {
-    border-left: 5px;
+    border-left: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     border-left-style: solid;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
     border-left-color: rgb(0, 148, 255);
     padding-left: 10px;
+
 
     font-weight: bold;
     letter-spacing: 2px;
 }
+
+
 
 div.article {
     padding-top: 10px;
