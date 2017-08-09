@@ -8,6 +8,12 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+div.mask {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: inherit;
+    width: 100%;
+}
 
 div.header {
     display: flex;
@@ -66,7 +72,7 @@ div.video {
         letter-spacing: 0.25rem;
         color: white;
     }
-    div.video a {
+    div.video > a {
         margin:0 42%;
         padding: 1.5rem 3rem;
         border-style: solid;
